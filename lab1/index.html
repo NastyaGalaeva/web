@@ -1,0 +1,86 @@
+﻿<html>
+<head>
+<title>Новости.ru</title>
+<style>
+.site-block
+{
+background:#ffffff;
+width:100%;
+height:100%;
+text-align: center;
+}
+.header
+{
+background:#66ccff;
+width:100%;
+height:5%;
+font-size: 10px;
+}
+.search-block
+{
+background:#ffffff;
+width:80%;
+height:4%;
+float:left; /* прижатие блока */
+}
+.block-profile
+{
+background:#ffffff;
+width:15%;
+height:4%;
+float:right; 
+}
+.block-left
+{
+background:#66ccff;
+width:20%;
+height:93%; 
+float:left; 
+}
+.block-right
+{
+background:#ffffff;
+width:78%;
+height:93%;
+float:right; 
+}
+
+</style>
+</head>
+<body>
+<div class="site-block">
+  <div class="header">
+  	<h1>Новости.ru</h1>
+  </div>
+
+  <div class="search-block">
+  	<form>
+  		<input type="search" autocomplete="off" value="Поиск..."> 
+  		<input type="submit" value="Найти">
+  	</form>		
+  </div>
+
+  <div class="block-profile">
+  	<b>Войти</b>
+  	в Мою Ленту
+  </div>
+ 
+  <div class="block-left">
+  	<p>Меню</p>
+  	<li><a href="#">Все новости</a></li>
+  	<li><a href="#">Финансы</a></li>
+  	<li><a href="#">Кино</a></li>
+  	<li><a href="#">Спорт</a></li>
+  	<li><a href="#">Авто</a></li>
+  	<li><a href="#">Здоровье</a></li>
+  	<li><a href="#">Путешествия</a></li>
+  </div>
+  
+  <div class="block-right">
+  	<p>Новости</p>
+  	<iframe style="background-color: #ffffff;" src="http://newsnovosti.ru/novosti-vse-widget/" name="news" width="98%" height="90%" marginheight="1%" marginwidth="2%"></iframe>
+  </div>
+ 
+</div>
+</body>
+</html>
