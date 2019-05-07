@@ -1,0 +1,71 @@
+.container-fluid .row div {
+    height: 100px;
+    background: #333;
+}
+
+.container .wrap-caption {
+    text-align: center;
+}
+
+a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.supheading {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px; 
+}
+.supheading:before {
+    content: '- '; 
+}
+.supheading:after {
+    content: ' -'; 
+}
+
+h1 {
+    font-family: "Suez One", serif;
+    font-weight: 700;
+    font-size: 24px;    
+}
+
+    
+.container .row2 {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+} 
+
+.container .row2 .description .heading {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px; 
+    text-align: center;
+}
+.container .row2 .description .heading:before {
+    content: '- '; 
+}
+.container .row2 .description .heading:after {
+    content: ' -'; 
+}
+
+
+.content-wrap .container .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+}
+
+.media {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #333;;
+    border-color: #333;;
+}
